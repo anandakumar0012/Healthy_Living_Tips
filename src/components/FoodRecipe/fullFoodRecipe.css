@@ -1,0 +1,135 @@
+/* Header Section */
+
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.recipe-header {
+    height: 80px;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-title {
+    margin-left: 10px;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-weight: 700;
+  }
+  
+  .recipe-time-date h2,
+  .recipe-time-date p {
+    color: black;
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  .recipe-time-date h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  
+  .recipe-time-date p {
+    margin-top: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  
+  .text-white-logo {
+    width: 50px;
+    height: auto;
+  }
+
+  .sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+  }
+
+/* List Section */
+
+
+.main-container {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .list-group-item-secondary {
+    background: rgba(211, 211, 211, 0.5);
+    border-color: rgba(211, 211, 211, 0.5);
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  .main-card-right{
+    width: 500px;
+    height: 400px;
+    padding: 0 20px;
+  }
+
+  .main-card {
+    background-image: linear-gradient(rgba(211, 211, 211, 0.5), rgba(251, 251, 251, 0.5));
+  }
+
+  .body-card {
+    margin-left: 10px;
+  }
+
+  .list-group-item{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+  }
+
+  .recipe-card-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+
+  .card-subtitle {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+
+  .recipe-list-group-item {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    background-color: transparent;
+  background-image: none;
+  }
+
+  .recipe-card-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+  }
+
+  .test-image {
+    width: 460px;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+  }
+
+  .card:hover .recipe-card-title,
+  .card:hover .card-subtitle,
+  .card:hover .recipe-list-group-item,
+  .card:hover .recipe-card-text {
+    visibility: hidden;
+  }
+
+  .card-body {
+    transition: opacity 0.3s ease;
+  }
+  

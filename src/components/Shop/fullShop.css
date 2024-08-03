@@ -1,0 +1,199 @@
+/* General styles for the header and sections */
+
+.fullshop-header {
+  height: 80px;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fullshop-title {
+    margin-left: 10px;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: black;
+  }
+  
+  .text-white-logo {
+    width: 50px;
+    height: auto;
+  }
+
+.cart-icon {
+    position: relative;
+    font-size: 28px;
+    margin-right: 20px;
+  }
+  
+  .cart-icon img {
+    width: 30px;
+    height: auto;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 15px;
+  }
+
+  .sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+  }
+
+  #fullShopProduct {
+    scroll-margin-top: 100px;
+  }
+
+/* Full Width Section */
+
+.full-width-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 700px;
+    background-image: url(../../assets/Background-Tile.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 800px;
+}
+
+.image-section img {
+    max-width: 800px;
+    height: 550px;
+    border-radius: 10px;
+}
+
+.content-section {
+    margin-left: 20px;
+}
+
+.content-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 3rem;
+}
+
+.content-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+    margin: 10px 0;
+}
+
+.content-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* Best Selling and All Products Sections */
+
+.full-shop-container {
+  margin-top: 20px;
+}
+
+.section-title {
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+
+.shop-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid lightgray;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.shop-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px gray;
+}
+
+.card-img-container {
+  position: relative;
+  width: 100%;
+  height: 70%;
+}
+
+.shop-card-image {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.shop-card-img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(211, 211, 211, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card-body {
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.full-Shop-card-title h5 {
+  font-size: 1.3rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: black;
+}
+
+.card-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: black;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 1.3rem;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+}
+
+.btn-danger {
+  background-color: red;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 1.3rem;
+  margin-left: 20px;
+}

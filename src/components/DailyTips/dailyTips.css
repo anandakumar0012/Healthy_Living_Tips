@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.daily-item{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .daily-sliding-text {
+    animation: slide-right-to-left 15s linear infinite;
+    background-image: linear-gradient(to right, #f8f8f8, rgba(173, 242, 120, 0));
+  }
+  
+  .carousel.daily-carousel {
+    margin-top: 30px;
+  }
+  
+  @keyframes slide-right-to-left {
+    0% {
+      transform: translateX(100%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-100%);
+      opacity: 1;
+    }
+  }
+  
+  .daily-carousel {
+    border-radius: 10px;
+    height: 34px;
+  }
+
+  .daily-carousel:hover .daily-sliding-text {
+    animation-play-state: paused;
+  }
+  
+  .daily-title {
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: gray;
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+  }
+
+  .daily-description {
+    font-size: 1.1rem;
+    color: gray;
+  }
+  
+  .daily-lead {
+    font-weight: 200;
+    font-family: "Inter", sans-serif;
+  }
+
+ #dailyTips {
+  scroll-margin-top: 70px;
+ }

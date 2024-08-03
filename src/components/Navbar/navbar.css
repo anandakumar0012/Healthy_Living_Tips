@@ -1,0 +1,29 @@
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+}
+
+.navbar-custom {
+  background-color: #B6C7AA;
+}
+
+.navbar-custom .nav-link {
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.navbar-custom .nav-link:hover {
+  color: black;
+  border-radius: 5px;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.navbar-custom .nav-link {
+  transition: background-color 0.3s, color 0.3s;
+}

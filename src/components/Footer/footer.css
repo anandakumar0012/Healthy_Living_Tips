@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.footer {
+    background-color: white;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    box-shadow: 4px 0  8px rgba(0, 0, 0, 0.3);
+}
+
+.footer a {
+    color: white;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    background-color: gray;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+.footer a:hover {
+    background-color: black;
+}
+
+.footer p {
+    margin: 0;
+    color: gray;
+}
+
+.footer-left {
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+@media (max-width: 767.98px) {
+    .footer .align-items-center {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer .justify-content-md-start,
+    .footer .justify-content-md-end {
+        justify-content: center !important;
+    }
+}
